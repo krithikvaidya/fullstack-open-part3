@@ -1,0 +1,19 @@
+# DELETE http://localhost:3001/api/persons/2
+
+# GET http://localhost:3001/api/persons/
+
+# POST http://localhost:3001/api/persons/
+# Content-Type: application/json
+
+# {
+#     "name": "Krithik Vaidya",
+#     "number": "7030464864"
+# }
+
+POST http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+    "name": "K Vaidya",
+    "number": "312052434"
+}
